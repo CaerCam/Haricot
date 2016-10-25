@@ -911,7 +911,7 @@ window.haricot = window.haricot || {};
 		attributes : function() {
 			return {
 				'id'    : 'haricot-control-' + this.model.get( 'name' ),
-				'class' : 'haricot-control haricot-control-' + this.model.get( 'type' )
+				'class' : 'haricot-control haricot-control-' + this.model.get( 'type' ) + ' ' + this.model.get( 'class' )
 			};
 		},
 
